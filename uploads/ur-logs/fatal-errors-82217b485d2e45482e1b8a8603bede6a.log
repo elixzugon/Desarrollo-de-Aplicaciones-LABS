@@ -1,0 +1,182 @@
+2024-06-15T03:22:39+00:00 CRITICAL Uncaught Error: Object of class Sketchfab_Widget could not be converted to string in C:\laragon\www\ELIXZUGON\wp-content\plugins\my-widgets\widgets\sketchfab.php:40
+Stack trace:
+#0 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(2374): Sketchfab_Widget->_register_controls()
+#1 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\widget-base.php(1064): Elementor\Controls_Stack->init_controls()
+#2 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(559): Elementor\Widget_Base->init_controls()
+#3 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\widget-base.php(192): Elementor\Controls_Stack->get_stack()
+#4 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Widget_Base->get_stack(false)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\laragon\www\ELIXZUGON\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\ELIXZUGON\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\laragon\www\ELIXZUGON\wp-content\plugins\my-widgets\widgets\sketchfab.php on line 40
+
+2024-06-15T03:23:24+00:00 CRITICAL Uncaught Error: Object of class Sketchfab_Widget could not be converted to string in C:\laragon\www\ELIXZUGON\wp-content\plugins\my-widgets\widgets\sketchfab.php:40
+Stack trace:
+#0 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(2374): Sketchfab_Widget->_register_controls()
+#1 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\widget-base.php(1064): Elementor\Controls_Stack->init_controls()
+#2 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(559): Elementor\Widget_Base->init_controls()
+#3 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\widget-base.php(192): Elementor\Controls_Stack->get_stack()
+#4 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Widget_Base->get_stack(false)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\laragon\www\ELIXZUGON\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\ELIXZUGON\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\laragon\www\ELIXZUGON\wp-content\plugins\my-widgets\widgets\sketchfab.php on line 40
+
+2024-06-15T03:23:51+00:00 CRITICAL Uncaught Error: Object of class Sketchfab_Widget could not be converted to string in C:\laragon\www\ELIXZUGON\wp-content\plugins\my-widgets\widgets\sketchfab.php:40
+Stack trace:
+#0 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(2374): Sketchfab_Widget->_register_controls()
+#1 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\widget-base.php(1064): Elementor\Controls_Stack->init_controls()
+#2 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(559): Elementor\Widget_Base->init_controls()
+#3 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\widget-base.php(192): Elementor\Controls_Stack->get_stack()
+#4 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Widget_Base->get_stack(false)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\laragon\www\ELIXZUGON\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\ELIXZUGON\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\laragon\www\ELIXZUGON\wp-content\plugins\my-widgets\widgets\sketchfab.php on line 40
+
+2024-06-15T03:27:17+00:00 CRITICAL Uncaught Error: Object of class Sketchfab_Widget could not be converted to string in C:\laragon\www\ELIXZUGON\wp-content\plugins\my-widgets\widgets\sketchfab.php:40
+Stack trace:
+#0 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(2374): Sketchfab_Widget->_register_controls()
+#1 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\widget-base.php(1064): Elementor\Controls_Stack->init_controls()
+#2 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(559): Elementor\Widget_Base->init_controls()
+#3 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\widget-base.php(192): Elementor\Controls_Stack->get_stack()
+#4 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Widget_Base->get_stack(false)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\laragon\www\ELIXZUGON\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\ELIXZUGON\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\laragon\www\ELIXZUGON\wp-content\plugins\my-widgets\widgets\sketchfab.php on line 40
+
+2024-06-15T03:28:27+00:00 CRITICAL Uncaught Error: Object of class Sketchfab_Widget could not be converted to string in C:\laragon\www\ELIXZUGON\wp-content\plugins\my-widgets\widgets\sketchfab.php:40
+Stack trace:
+#0 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(2374): Sketchfab_Widget->_register_controls()
+#1 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\widget-base.php(1064): Elementor\Controls_Stack->init_controls()
+#2 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(559): Elementor\Widget_Base->init_controls()
+#3 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\widget-base.php(192): Elementor\Controls_Stack->get_stack()
+#4 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\managers\widgets.php(390): Elementor\Widget_Base->get_stack(false)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 C:\laragon\www\ELIXZUGON\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\laragon\www\ELIXZUGON\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\laragon\www\ELIXZUGON\wp-content\plugins\my-widgets\widgets\sketchfab.php on line 40
+
+2024-06-15T19:31:10+00:00 CRITICAL Uncaught Error: Object of class Sketchfab_Widget could not be converted to string in C:\laragon\www\ELIXZUGON\wp-content\plugins\my-widgets\widgets\sketchfab.php:40
+Stack trace:
+#0 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(2374): Sketchfab_Widget->_register_controls()
+#1 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\widget-base.php(1064): Elementor\Controls_Stack->init_controls()
+#2 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(559): Elementor\Widget_Base->init_controls()
+#3 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\widget-base.php(192): Elementor\Controls_Stack->get_stack()
+#4 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\base\controls-stack.php(314): Elementor\Widget_Base->get_stack()
+#5 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\core\files\css\global-css.php(120): Elementor\Controls_Stack->get_controls()
+#6 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\core\files\css\global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#7 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\core\files\css\base.php(680): Elementor\Core\Files\CSS\Global_CSS->render_css()
+#8 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\core\files\base.php(180): Elementor\Core\Files\CSS\Base->parse_content()
+#9 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\core\files\css\base.php(131): Elementor\Core\Files\Base->update_file()
+#10 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\core\files\css\base.php(227): Elementor\Core\Files\CSS\Base->update()
+#11 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\frontend.php(1026): Elementor\Core\Files\CSS\Base->enqueue()
+#12 C:\laragon\www\ELIXZUGON\wp-content\plugins\elementor\includes\frontend.php(648): Elementor\Frontend->parse_global_css_code()
+#13 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(324): Elementor\Frontend->enqueue_styles('')
+#14 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#15 C:\laragon\www\ELIXZUGON\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#16 C:\laragon\www\ELIXZUGON\wp-includes\script-loader.php(2265): do_action('wp_enqueue_scri...')
+#17 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#18 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#19 C:\laragon\www\ELIXZUGON\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#20 C:\laragon\www\ELIXZUGON\wp-includes\general-template.php(3050): do_action('wp_head')
+#21 C:\laragon\www\ELIXZUGON\wp-content\themes\storefront\header.php(18): wp_head()
+#22 C:\laragon\www\ELIXZUGON\wp-includes\template.php(810): require_once('C:\\laragon\\www\\...')
+#23 C:\laragon\www\ELIXZUGON\wp-includes\template.php(745): load_template('C:\\laragon\\www\\...', true, Array)
+#24 C:\laragon\www\ELIXZUGON\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#25 C:\laragon\www\ELIXZUGON\wp-content\themes\storefront\page.php(13): get_header()
+#26 C:\laragon\www\ELIXZUGON\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#27 C:\laragon\www\ELIXZUGON\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#28 C:\laragon\www\ELIXZUGON\index.php(17): require('C:\\laragon\\www\\...')
+#29 {main}
+  thrown in C:\laragon\www\ELIXZUGON\wp-content\plugins\my-widgets\widgets\sketchfab.php on line 40
+
+2024-06-19T21:13:22+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_scripts" not found or invalid function name in C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\laragon\www\ELIXZUGON\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\laragon\www\ELIXZUGON\wp-includes\script-loader.php(2265): do_action('wp_enqueue_scri...')
+#3 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\laragon\www\ELIXZUGON\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\laragon\www\ELIXZUGON\wp-includes\general-template.php(3050): do_action('wp_head')
+#7 C:\laragon\www\ELIXZUGON\wp-content\themes\mythemes\header.php(31): wp_head()
+#8 C:\laragon\www\ELIXZUGON\wp-includes\template.php(810): require_once('C:\\laragon\\www\\...')
+#9 C:\laragon\www\ELIXZUGON\wp-includes\template.php(745): load_template('C:\\laragon\\www\\...', true, Array)
+#10 C:\laragon\www\ELIXZUGON\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#11 C:\laragon\www\ELIXZUGON\wp-content\themes\astra\page.php(20): get_header()
+#12 C:\laragon\www\ELIXZUGON\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#13 C:\laragon\www\ELIXZUGON\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#14 C:\laragon\www\ELIXZUGON\index.php(17): require('C:\\laragon\\www\\...')
+#15 {main}
+  thrown in C:\laragon\www\ELIXZUGON\wp-includes\class-wp-hook.php on line 324
+
+2024-06-19T22:32:00+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in C:\laragon\www\ELIXZUGON\wp-content\themes\mythemes\header.php:30
+Stack trace:
+#0 C:\laragon\www\ELIXZUGON\wp-includes\template.php(810): require_once()
+#1 C:\laragon\www\ELIXZUGON\wp-includes\template.php(745): load_template('C:\\laragon\\www\\...', true, Array)
+#2 C:\laragon\www\ELIXZUGON\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\laragon\www\ELIXZUGON\wp-content\themes\astra\page.php(20): get_header()
+#4 C:\laragon\www\ELIXZUGON\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\ELIXZUGON\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\ELIXZUGON\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\ELIXZUGON\wp-content\themes\mythemes\header.php on line 30
+
+2024-06-19T22:33:35+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in C:\laragon\www\ELIXZUGON\wp-content\themes\mythemes\header.php:30
+Stack trace:
+#0 C:\laragon\www\ELIXZUGON\wp-includes\template.php(810): require_once()
+#1 C:\laragon\www\ELIXZUGON\wp-includes\template.php(745): load_template('C:\\laragon\\www\\...', true, Array)
+#2 C:\laragon\www\ELIXZUGON\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\laragon\www\ELIXZUGON\wp-content\themes\astra\page.php(20): get_header()
+#4 C:\laragon\www\ELIXZUGON\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\ELIXZUGON\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\ELIXZUGON\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\ELIXZUGON\wp-content\themes\mythemes\header.php on line 30
+
+2024-06-19T22:34:11+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in C:\laragon\www\ELIXZUGON\wp-content\themes\mythemes\header.php:25
+Stack trace:
+#0 C:\laragon\www\ELIXZUGON\wp-includes\template.php(810): require_once()
+#1 C:\laragon\www\ELIXZUGON\wp-includes\template.php(745): load_template('C:\\laragon\\www\\...', true, Array)
+#2 C:\laragon\www\ELIXZUGON\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\laragon\www\ELIXZUGON\wp-content\themes\astra\page.php(20): get_header()
+#4 C:\laragon\www\ELIXZUGON\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\ELIXZUGON\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\ELIXZUGON\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\ELIXZUGON\wp-content\themes\mythemes\header.php on line 25
+
+2024-06-19T22:34:24+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in C:\laragon\www\ELIXZUGON\wp-content\themes\mythemes\header.php:25
+Stack trace:
+#0 C:\laragon\www\ELIXZUGON\wp-includes\template.php(810): require_once()
+#1 C:\laragon\www\ELIXZUGON\wp-includes\template.php(745): load_template('C:\\laragon\\www\\...', true, Array)
+#2 C:\laragon\www\ELIXZUGON\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\laragon\www\ELIXZUGON\wp-content\themes\astra\page.php(20): get_header()
+#4 C:\laragon\www\ELIXZUGON\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\ELIXZUGON\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\ELIXZUGON\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\ELIXZUGON\wp-content\themes\mythemes\header.php on line 25
+
